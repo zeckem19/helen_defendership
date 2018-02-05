@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D581F3D32028C1600024FF62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D581F3D22028C1600024FF62 /* AppDelegate.swift */; };
+		D581F3D52028C1600024FF62 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D581F3D42028C1600024FF62 /* GameScene.sks */; };
+		D581F3D72028C1600024FF62 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = D581F3D62028C1600024FF62 /* Actions.sks */; };
+		D581F3D92028C1600024FF62 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D581F3D82028C1600024FF62 /* GameScene.swift */; };
+		D581F3DB2028C1600024FF62 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D581F3DA2028C1600024FF62 /* GameViewController.swift */; };
+		D581F3DE2028C1600024FF62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D581F3DC2028C1600024FF62 /* Main.storyboard */; };
+		D581F3E02028C1600024FF62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D581F3DF2028C1600024FF62 /* Assets.xcassets */; };
+		D581F3E32028C1600024FF62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D581F3E12028C1600024FF62 /* LaunchScreen.storyboard */; };
+		D581F3EE2028C1600024FF62 /* Helen_DefendershipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D581F3ED2028C1600024FF62 /* Helen_DefendershipTests.swift */; };
+		D581F3F92028C1600024FF62 /* Helen_DefendershipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D581F3F82028C1600024FF62 /* Helen_DefendershipUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D581F3EA2028C1600024FF62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D581F3C72028C1600024FF62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D581F3CE2028C1600024FF62;
+			remoteInfo = "Helen Defendership";
+		};
+		D581F3F52028C1600024FF62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D581F3C72028C1600024FF62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D581F3CE2028C1600024FF62;
+			remoteInfo = "Helen Defendership";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D581F3CF2028C1600024FF62 /* Helen Defendership.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Helen Defendership.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D581F3D22028C1600024FF62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D581F3D42028C1600024FF62 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		D581F3D62028C1600024FF62 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		D581F3D82028C1600024FF62 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		D581F3DA2028C1600024FF62 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		D581F3DD2028C1600024FF62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D581F3DF2028C1600024FF62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D581F3E22028C1600024FF62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D581F3E42028C1600024FF62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D581F3E92028C1600024FF62 /* Helen DefendershipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Helen DefendershipTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D581F3ED2028C1600024FF62 /* Helen_DefendershipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helen_DefendershipTests.swift; sourceTree = "<group>"; };
+		D581F3EF2028C1600024FF62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D581F3F42028C1600024FF62 /* Helen DefendershipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Helen DefendershipUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D581F3F82028C1600024FF62 /* Helen_DefendershipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helen_DefendershipUITests.swift; sourceTree = "<group>"; };
+		D581F3FA2028C1600024FF62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D581F3CC2028C1600024FF62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D581F3E62028C1600024FF62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D581F3F12028C1600024FF62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D581F3C62028C1600024FF62 = {
+			isa = PBXGroup;
+			children = (
+				D581F3D12028C1600024FF62 /* Helen Defendership */,
+				D581F3EC2028C1600024FF62 /* Helen DefendershipTests */,
+				D581F3F72028C1600024FF62 /* Helen DefendershipUITests */,
+				D581F3D02028C1600024FF62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D581F3D02028C1600024FF62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D581F3CF2028C1600024FF62 /* Helen Defendership.app */,
+				D581F3E92028C1600024FF62 /* Helen DefendershipTests.xctest */,
+				D581F3F42028C1600024FF62 /* Helen DefendershipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D581F3D12028C1600024FF62 /* Helen Defendership */ = {
+			isa = PBXGroup;
+			children = (
+				D581F3D22028C1600024FF62 /* AppDelegate.swift */,
+				D581F3D42028C1600024FF62 /* GameScene.sks */,
+				D581F3D62028C1600024FF62 /* Actions.sks */,
+				D581F3D82028C1600024FF62 /* GameScene.swift */,
+				D581F3DA2028C1600024FF62 /* GameViewController.swift */,
+				D581F3DC2028C1600024FF62 /* Main.storyboard */,
+				D581F3DF2028C1600024FF62 /* Assets.xcassets */,
+				D581F3E12028C1600024FF62 /* LaunchScreen.storyboard */,
+				D581F3E42028C1600024FF62 /* Info.plist */,
+			);
+			path = "Helen Defendership";
+			sourceTree = "<group>";
+		};
+		D581F3EC2028C1600024FF62 /* Helen DefendershipTests */ = {
+			isa = PBXGroup;
+			children = (
+				D581F3ED2028C1600024FF62 /* Helen_DefendershipTests.swift */,
+				D581F3EF2028C1600024FF62 /* Info.plist */,
+			);
+			path = "Helen DefendershipTests";
+			sourceTree = "<group>";
+		};
+		D581F3F72028C1600024FF62 /* Helen DefendershipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D581F3F82028C1600024FF62 /* Helen_DefendershipUITests.swift */,
+				D581F3FA2028C1600024FF62 /* Info.plist */,
+			);
+			path = "Helen DefendershipUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D581F3CE2028C1600024FF62 /* Helen Defendership */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D581F3FD2028C1600024FF62 /* Build configuration list for PBXNativeTarget "Helen Defendership" */;
+			buildPhases = (
+				D581F3CB2028C1600024FF62 /* Sources */,
+				D581F3CC2028C1600024FF62 /* Frameworks */,
+				D581F3CD2028C1600024FF62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Helen Defendership";
+			productName = "Helen Defendership";
+			productReference = D581F3CF2028C1600024FF62 /* Helen Defendership.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D581F3E82028C1600024FF62 /* Helen DefendershipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D581F4002028C1600024FF62 /* Build configuration list for PBXNativeTarget "Helen DefendershipTests" */;
+			buildPhases = (
+				D581F3E52028C1600024FF62 /* Sources */,
+				D581F3E62028C1600024FF62 /* Frameworks */,
+				D581F3E72028C1600024FF62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D581F3EB2028C1600024FF62 /* PBXTargetDependency */,
+			);
+			name = "Helen DefendershipTests";
+			productName = "Helen DefendershipTests";
+			productReference = D581F3E92028C1600024FF62 /* Helen DefendershipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D581F3F32028C1600024FF62 /* Helen DefendershipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D581F4032028C1600024FF62 /* Build configuration list for PBXNativeTarget "Helen DefendershipUITests" */;
+			buildPhases = (
+				D581F3F02028C1600024FF62 /* Sources */,
+				D581F3F12028C1600024FF62 /* Frameworks */,
+				D581F3F22028C1600024FF62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D581F3F62028C1600024FF62 /* PBXTargetDependency */,
+			);
+			name = "Helen DefendershipUITests";
+			productName = "Helen DefendershipUITests";
+			productReference = D581F3F42028C1600024FF62 /* Helen DefendershipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D581F3C72028C1600024FF62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Lim Ze Hwee Zoe";
+				TargetAttributes = {
+					D581F3CE2028C1600024FF62 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D581F3E82028C1600024FF62 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D581F3CE2028C1600024FF62;
+					};
+					D581F3F32028C1600024FF62 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D581F3CE2028C1600024FF62;
+					};
+				};
+			};
+			buildConfigurationList = D581F3CA2028C1600024FF62 /* Build configuration list for PBXProject "Helen Defendership" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D581F3C62028C1600024FF62;
+			productRefGroup = D581F3D02028C1600024FF62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D581F3CE2028C1600024FF62 /* Helen Defendership */,
+				D581F3E82028C1600024FF62 /* Helen DefendershipTests */,
+				D581F3F32028C1600024FF62 /* Helen DefendershipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D581F3CD2028C1600024FF62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D581F3DE2028C1600024FF62 /* Main.storyboard in Resources */,
+				D581F3D52028C1600024FF62 /* GameScene.sks in Resources */,
+				D581F3E02028C1600024FF62 /* Assets.xcassets in Resources */,
+				D581F3E32028C1600024FF62 /* LaunchScreen.storyboard in Resources */,
+				D581F3D72028C1600024FF62 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D581F3E72028C1600024FF62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D581F3F22028C1600024FF62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D581F3CB2028C1600024FF62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D581F3D92028C1600024FF62 /* GameScene.swift in Sources */,
+				D581F3DB2028C1600024FF62 /* GameViewController.swift in Sources */,
+				D581F3D32028C1600024FF62 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D581F3E52028C1600024FF62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D581F3EE2028C1600024FF62 /* Helen_DefendershipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D581F3F02028C1600024FF62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D581F3F92028C1600024FF62 /* Helen_DefendershipUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D581F3EB2028C1600024FF62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D581F3CE2028C1600024FF62 /* Helen Defendership */;
+			targetProxy = D581F3EA2028C1600024FF62 /* PBXContainerItemProxy */;
+		};
+		D581F3F62028C1600024FF62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D581F3CE2028C1600024FF62 /* Helen Defendership */;
+			targetProxy = D581F3F52028C1600024FF62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D581F3DC2028C1600024FF62 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D581F3DD2028C1600024FF62 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D581F3E12028C1600024FF62 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D581F3E22028C1600024FF62 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D581F3FB2028C1600024FF62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D581F3FC2028C1600024FF62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D581F3FE2028C1600024FF62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Helen Defendership/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zeming.Helen-Defendership";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D581F3FF2028C1600024FF62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Helen Defendership/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zeming.Helen-Defendership";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D581F4012028C1600024FF62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Helen DefendershipTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zeming.Helen-DefendershipTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Helen Defendership.app/Helen Defendership";
+			};
+			name = Debug;
+		};
+		D581F4022028C1600024FF62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Helen DefendershipTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zeming.Helen-DefendershipTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Helen Defendership.app/Helen Defendership";
+			};
+			name = Release;
+		};
+		D581F4042028C1600024FF62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Helen DefendershipUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zeming.Helen-DefendershipUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Helen Defendership";
+			};
+			name = Debug;
+		};
+		D581F4052028C1600024FF62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Helen DefendershipUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zeming.Helen-DefendershipUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Helen Defendership";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D581F3CA2028C1600024FF62 /* Build configuration list for PBXProject "Helen Defendership" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D581F3FB2028C1600024FF62 /* Debug */,
+				D581F3FC2028C1600024FF62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D581F3FD2028C1600024FF62 /* Build configuration list for PBXNativeTarget "Helen Defendership" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D581F3FE2028C1600024FF62 /* Debug */,
+				D581F3FF2028C1600024FF62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D581F4002028C1600024FF62 /* Build configuration list for PBXNativeTarget "Helen DefendershipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D581F4012028C1600024FF62 /* Debug */,
+				D581F4022028C1600024FF62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D581F4032028C1600024FF62 /* Build configuration list for PBXNativeTarget "Helen DefendershipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D581F4042028C1600024FF62 /* Debug */,
+				D581F4052028C1600024FF62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D581F3C72028C1600024FF62 /* Project object */;
+}
